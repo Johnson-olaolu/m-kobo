@@ -80,7 +80,7 @@ const Sidebar = () => {
         <h6 className={SidebarStyles.helpTitle}>Help & Support</h6>
         <p className={SidebarStyles.helpItem}>
           <FaqIcon />
-          <span className="">FAQ`&apos;`s</span>
+          <span className="">FAQ&apos;s</span>
         </p>
         <p className={SidebarStyles.helpItem}>
           <TalkIcon />
