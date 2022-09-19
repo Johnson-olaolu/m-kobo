@@ -1,0 +1,14 @@
+import React from 'react';
+
+const DebitCardIcon = () => (
+  <svg width="19" height="12" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M8.88549 6.49725L9.31238 7H8.9172L8.66351 6.67156L8.39762 7H8L8.44153 6.48991L8.04879 6H8.44153L8.66839 6.30642L8.91232 6H9.30018L8.88549 6.49725Z" fill="currentColor" />
+    <path d="M11.1147 6.49725L11.5416 7H11.1464L10.8927 6.67156L10.6268 7H10.2292L10.6707 6.48991L10.278 6H10.6707L10.8976 6.30642L11.1415 6H11.5294L11.1147 6.49725Z" fill="currentColor" />
+    <path d="M13.3439 6.49725L13.7708 7H13.3756L13.1219 6.67156L12.856 7H12.4584L12.8999 6.48991L12.5072 6H12.8999L13.1268 6.30642L13.3707 6H13.7586L13.3439 6.49725Z" fill="currentColor" />
+    <path d="M15.5731 6.49725L16 7H15.6048L15.3511 6.67156L15.0852 7H14.6876L15.1291 6.48991L14.7364 6H15.1291L15.356 6.30642L15.5999 6H15.9878L15.5731 6.49725Z" fill="currentColor" />
+    <rect x="0.35" y="0.35" width="18.3" height="11.3" rx="0.65" stroke="currentColor" strokeWidth="0.7" />
+  </svg>
+
+);
+
+export default DebitCardIcon;

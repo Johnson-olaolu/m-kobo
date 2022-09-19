@@ -1,0 +1,73 @@
+.container {
+    padding-left:  32px;
+    padding-top:  52px;
+    padding-bottom: 52px;
+}
+
+.logoDiv {
+    max-height: 98px;
+    margin-bottom: 52px;
+}
+
+.navbarContainer {
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    margin-bottom: 56px;
+    .navbarItemActive {
+        color:  #0047CC;
+        background: white;
+        height: 40px;
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        border-radius: 5px 0px 0px 5px;
+        .icon {
+
+        }
+        .text {
+            font-size: 14px;
+        }
+    }
+
+    .navbarItemNormal {
+        height: 40px;
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        border-radius: 5px 0px 0px 5px;
+        color: #8B9298;
+        .icon {
+
+        }
+        .text {
+            font-size: 14px;
+        }
+    }
+}
+
+.help {
+    .helpTitle {
+        font-weight: 700;
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    .helpItem {
+        color:  #0047CC;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        span {
+            font-size: 14px;
+        }
+        margin-bottom: 16px;
+    }
+}

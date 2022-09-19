@@ -1,0 +1,46 @@
+.container {
+  height: 124px;
+  padding: 0 36px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  .title {
+    font-weight: 700;
+    font-size: 16px;
+    color: #141623;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  .profile {
+    height: 56px;
+    border-radius: 5px;
+    background: #0047cc;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    color: white;
+    gap: 26px;
+    .user {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      .dropdown {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        gap: 6px;
+      }
+    }
+  }
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  gap: 6px;
+}

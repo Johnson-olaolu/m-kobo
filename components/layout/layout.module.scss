@@ -1,0 +1,29 @@
+.container {
+    background: #EFF2F8;
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;    
+}
+
+.sidebar {
+    width : 200px;
+    flex-shrink: 0;
+    height: 100vh;
+}
+
+.main {
+    flex-grow: 1;
+    height: 100vh;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.header {
+    flex-shrink:  0;
+    height:  124px;
+}
+
+.children {
+    flex-grow:  1;
+}
