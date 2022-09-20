@@ -1,10 +1,7 @@
-import React from 'react'
-import NavbarStyles from './Navbar.module.scss'
+import React from 'react';
 
-const NavBar = () => {
-  return (
-    <div>NavBar</div>
-  )
-}
+const NavBar = () => (
+  <div>NavBar</div>
+);
 
-export default NavBar
+export default NavBar;
